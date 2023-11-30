@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   buildTest:
-    uses: edubusluc/https://github.com/edubusluc/EGC2324-turno31-edubusluc/.github/workflows/django.yml@main
+    uses: edubusluc/EGC2324-turno31-edubusluc/.github/workflows/django.yml@master
     secrets: 
       CODACY_PROJECT_TOKEN: ${{secrets.CODACY_PROJECT_TOKEN}}
      
